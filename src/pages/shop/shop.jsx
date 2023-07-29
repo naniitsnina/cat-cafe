@@ -1,5 +1,6 @@
 import { PRODUCTS } from '../../products';
 import { Product } from './product';
+import './shop.css'
 
 export const Shop = () => {
     return ( 
@@ -8,7 +9,7 @@ export const Shop = () => {
             <h1>Cat Cafe</h1>
         </div>
         <div className="products">
-            {PRODUCTS.map((product) => (<Product data={product}/> ))}
+            {PRODUCTS.map((product) => (<Product data={product} key={product.id}/> ))}
         </div>
     </div>
     )
