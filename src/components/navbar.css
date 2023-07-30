@@ -1,7 +1,7 @@
 .navbar {
     width: 100%;
     height: 80px;
-    background-color: rgb(19, 19, 19);
+    background-color: #C8B6FF;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -19,3 +19,8 @@
     margin-left: 20px;
     font-size: 25px;
 }
+
+.shoppingCart {
+    color: #FEFCCE
+}
+

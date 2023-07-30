@@ -9,11 +9,11 @@
     width: 700px;
     height: 250px;
     display: flex;
-
     align-items: center;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.2);
     border-radius: 25px;
     margin: 30px;
+    background-color: white;
 }
 
 .cartItem img {
@@ -31,13 +31,40 @@
     font-weight: bolder;
 }
 
+
 .checkout button {
     width: 150px;
     height: 50px;
-    background-color: rgb(19, 19, 19);
+    background-color: #90CA8F;
     color: white;
     border: none;
     border-radius: 8px;
     margin: 10px;
     cursor: pointer;
+    font-weight: bolder;
+}
+
+.checkout button:hover {
+    background-color: #7aaa79;
+}
+
+.checkout p {
+    font-size: 32px;
+}
+
+.cart {
+    color: #FEFCCE;
+    font-weight: bolder;
+    background: #A2D2FF;
+    margin: 100px 200px;
+    border-radius: 20px;
+    padding: 10px 5px;
+}
+
+.cartItems {
+    color: #A2D2FF;
+}
+
+.cartItemsTitle { 
+    color: white
 }
