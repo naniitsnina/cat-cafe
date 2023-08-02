@@ -1,6 +1,10 @@
 html {
     background-color: #FFD6FF;
+    border: 25px solid #C8B6FF;
+    
 }
+
+
 .shopTitle {
     margin-top: 100px;
     text-align: center;

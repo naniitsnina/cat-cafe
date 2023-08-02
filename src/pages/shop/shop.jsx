@@ -6,6 +6,7 @@ import title from '../../assets/title-logo.png'
 import sleepingCat from '../../assets/cat-sleeping.png'
 import threeDots from '../../assets/3-dots.png'
 import zzz from '../../assets/zzz.png'
+import catBorder from '../../assets/cat-border.png'
 
 export const Shop = () => {
     return ( 
@@ -27,6 +28,20 @@ export const Shop = () => {
         </div>
         <div className="products">
             {PRODUCTS.map((product) => (<Product data={product} key={product.id}/> ))}
+        </div>
+        <div>
+            <img src={catBorder}/>
+            <img src={catBorder}/>
+            <img src={catBorder}/>
+            <img src={catBorder}/>
+            <img src={catBorder}/>
+            <img src={catBorder}/>
+            <img src={catBorder}/>
+            <img src={catBorder}/>
+            <img src={catBorder}/>
+            <img src={catBorder}/>
+            <img src={catBorder}/>
+            <img src={catBorder}/>
         </div>
     </div>
     )
